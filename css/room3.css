@@ -21,3 +21,26 @@ em{
     background-color: white;
     color: black;
 }
+button {
+    grid-column: 1 / -1;
+    background: var(--primary);
+    border: none;
+    color: white;
+    font-family: inherit;
+    font-size: inherit;
+    cursor: pointer;
+}
+
+button:focus {
+    outline: solid 1px var(--primary);
+}
+
+input:invalid {
+    color: var(--error);
+    border-color: var(--error);
+}
+
+form:has(:invalid) button {
+    opacity: 0.1;
+    background-color: #ff0000;
+}
