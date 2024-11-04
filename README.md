@@ -1,5 +1,5 @@
 # jim
 
 - Jan Rymarski
-- Mauro Vangheluwe
 - Iebe Withouck
+- Mauro Vangheluwe
