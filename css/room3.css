@@ -1,0 +1,23 @@
+body{
+    background-color: black;
+    font-family: Arial, sans-serif;
+    font-size: medium;
+    padding: 1rem;
+}
+h1{
+    font-size: 3rem;
+    color: white;
+}
+p{
+    color: white;
+}
+em{
+    display: flex;
+    justify-content: center;
+    color: black;
+    font-size: 2rem;
+}
+::selection{
+    background-color: white;
+    color: black;
+}
